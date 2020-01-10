@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Raghav Saboo</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+
+	<div class="page">
+
+		<div class="card" id="1" style="background-image: url(slide.png);">
+			<div class="text">
+					<h1 id="shadow">RAGHAV SABOO</h1>
+					<p class="descr">
+						Pursuing <span>Computer Science</span> at <span>UW</span><br>
+						Looking for a <span>Winter 2020</span> co-op<br>
+						Check out the <span>links</span> below
+					</p>
+					<p style="text-align: center;">							
+						<a href="https://github.com/raghs2000" target="_blank">
+							<i class="material-icons" style="font-size:25px;color:white;text-shadow:1px 1px 2px #000000;">code</i>
+						</a>
+						<a href="mailto:raghs2000@gmail.com?Subject=Raghav%20Rocks" target="_top">
+							<i class="material-icons" style="font-size:25px;color:white;text-shadow:1px 1px 2px #000000;">mail</i>
+						</a>
+						<a href="echo.pdf" target="_blank">
+							<i class="material-icons" style="font-size:25px;color:white;text-shadow:1px 1px 2px #000000;">assignment</i>
+						</a>
+						<a href="fabrica.pdf" target="_blank">
+							<i class="material-icons" style="font-size:25px;color:white;text-shadow:1px 1px 2px #000000;">book</i>
+						</a>
+					</p>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript">
+		document.addEventListener('wheel', function(e)
+{
+  if(e.type != 'wheel')
+  {
+    return;
+  }
+  let delta = ((e.deltaY || -e.wheelDelta || e.detail) >> 10) || 1;
+  delta = delta * (-20);
+  document.documentElement.scrollLeft -= delta;    
+  // safari needs also this
+  document.body.scrollLeft -= delta;    
+  e.preventDefault();
+});
+	</script>
+
+</body>
+</html>
