@@ -1,8 +1,6 @@
 body{
 	font-family: Sans-Serif;
 	margin: 0 auto;
-    overflow-x: scroll;
-    overflow-y: hidden;
     padding: 0;
     background-color: #111111;
 }
@@ -30,9 +28,11 @@ a {
 
 #menu a {
 	color: white;
+	font-weight: 500;
+	font-size: 1.1em;
 	padding-left: 3px;
 	padding-right: 3px;
-	text-shadow: 1.5px 1.5px #e74c3c;
+	text-shadow: 1px 1px #999999;
 }
 
 #menu a:hover {
@@ -43,10 +43,9 @@ a {
 }
 
 .page {
-	height: 100%;
+	min-height: 100%;
 	min-width: 100%;
 	text-align: center;
-	white-space: nowrap;
 }
 
 .card {
@@ -56,9 +55,9 @@ a {
   	color: #ecf0f1;
   	font-weight: 300;
   	height: 100%;
+  	max-height: auto;
   	background-size: cover;
   	background-position: center;
-  	background-attachment: fixed;
   	background-repeat: no-repeat;
 }
 
@@ -96,4 +95,63 @@ a {
 ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
+}
+
+#bookstand {
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding: auto;
+	margin-bottom: 30px;
+	background-image: url(Docs/portfolio.jpg);
+  	align-items: center;
+  	justify-content: center;
+}
+
+#magazine {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    height: 265px; 
+    width: 190px;
+    margin: 0 auto; 
+    background-color: #2d3436;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-bottom: 7%;
+}
+
+#magazine a{
+	margin: 0 auto;
+	padding: 0;
+}
+
+#magazine:hover {
+	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.3);
+	width: 195px;
+	height: 270px;
+    transition: 0.3s;
+}
+
+#title {
+	text-align: center; 
+	margin: 0 auto;
+	float: left;
+	color: black;
+	width: 100%;
+	padding: 0;
+	margin-top: 90px;
+	color: snow; 
+}
+
+#title h1 {
+	border-bottom: solid black 0.5px;
+	width: 88%;
+	font-size: 2.5em;
+	text-align: center;
+	margin: 0 auto;
 }
