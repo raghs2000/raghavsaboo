@@ -132,8 +132,8 @@ a {
 
 #magazine:hover {
 	box-shadow: 0 0px 0px 0 rgba(0,0,0,0.3);
-	width: 195px;
-	height: 270px;
+	width: 200px;
+	height: 275px;
     transition: 0.3s;
 }
 
