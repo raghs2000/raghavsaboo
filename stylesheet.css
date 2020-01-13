@@ -9,10 +9,6 @@ a {
 	text-decoration: none;
 }
 
-i {
-	color: grey;
-}
-
 #menu {
 	position: fixed;
 	width: 100%;
@@ -158,4 +154,8 @@ i {
 	font-size: 2.5rem;
 	text-align: center;
 	margin: 0 auto;
+}
+
+i {
+	color: grey;
 }
