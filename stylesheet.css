@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 }
 
+i {
+	color: grey;
+}
+
 #menu {
 	position: fixed;
 	width: 100%;
