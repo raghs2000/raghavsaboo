@@ -18,6 +18,66 @@ a {
 	text-decoration: none;
 }
 
+#menu {
+	position: fixed;
+	bottom: 0;
+}
+
+#links i {
+	color: black;
+	transition: 0.3s;
+	font-size: 1.5em;
+}
+
+#links i:hover {
+	color: #444444;
+	transition: 0.3s;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+}
+
+form h1 {
+	font-family: "Bebas Neue";
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+
+input {
+	background: transparent;
+	outline: none;
+	border: 0;
+	border-bottom: solid black 2px;
+	margin-bottom: 20px;
+	font-size: 1.1em;
+}
+
+textarea {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	background: transparent;
+	outline: none;
+	border: solid black 1px;
+}
+
+#submit {
+	background-color: black;
+	transition: 0.3s;
+	border: 0;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+#submit:hover {
+	opacity: 0.8;
+	transition: 0.3s;
+}
+
 .page {
 	width: 100%;
 	height: 100%;
